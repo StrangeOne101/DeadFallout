@@ -1,0 +1,164 @@
+{
+    "name": "OceanTree",
+    "derivative": "SWAMP",
+    "vanillaDerivative": "OCEAN",
+    "generators": [{
+        "min": -1,
+        "max": 0,
+        "generator": "river"
+    }],
+    "layers": [
+        {
+            "minHeight": 2,
+            "maxHeight": 3,
+            "style": {
+                "style": "VASCULAR",
+                "zoom": 0.8,
+                "fracture": {
+                    "multiplier": 2,
+                    "style": "STATIC"
+                }
+            },
+            "zoom": 0.825,
+            "palette": [
+                {"block": "sand"},
+                {"block": "dirt"},
+                {"block": "gravel"},
+                {"block": "clay"}
+            ]
+        },
+        {"palette": [{"block": "dirt"}]},
+        {
+            "minHeight": 1,
+            "maxHeight": 3,
+            "palette": [
+                {
+                    "weight": 2,
+                    "block": "dirt"
+                },
+                {"block": "coarse_dirt"}
+            ]
+        }
+    ],
+    "decorators": [
+        {
+            "chance": 0.07,
+            "variance": {"style": "STATIC"},
+            "zoom": 20,
+            "palette": [{"block": "seagrass"}],
+            "style": {"style": "STATIC"}
+        },
+        {
+            "chance": 6.0E-4,
+            "variance": {"style": "STATIC"},
+            "zoom": 1,
+            "palette": [
+                {"block": "soul_sand"},
+                {"block": "magma_block"}
+            ],
+            "style": {"style": "STATIC"}
+        },
+        {
+            "chance": 0.0013,
+            "verticalZoom": 88,
+            "variance": {"style": "STATIC"},
+            "stackMax": 24,
+            "zoom": 1,
+            "palette": [{"block": "kelp_plant"}],
+            "style": {"style": "STATIC"},
+            "heightVariance": {"style": "IRIS"},
+            "stackMin": 2
+        },
+        {
+            "chance": 0.0095,
+            "verticalZoom": 20,
+            "variance": {"style": "STATIC"},
+            "stackMax": 9,
+            "zoom": 1,
+            "palette": [{"block": "kelp_plant"}],
+            "style": {"style": "STATIC"},
+            "heightVariance": {"style": "STATIC"},
+            "stackMin": 1
+        },
+        {
+            "chance": 0.004,
+            "variance": {"style": "STATIC"},
+            "zoom": 1,
+            "palette": [
+                {
+                    "data": {
+                        "waterlogged": true,
+                        "pickles": 1
+                    },
+                    "block": "sea_pickle"
+                },
+                {
+                    "data": {
+                        "waterlogged": true,
+                        "pickles": 2
+                    },
+                    "block": "sea_pickle"
+                }
+            ],
+            "style": {"style": "STATIC"}
+        }
+    ],
+    "objects": [
+        {
+            "mode": "FAST_MIN_HEIGHT",
+            "place": [
+                "wasteland/dead-1",
+                "wasteland/dead-2",
+                "wasteland/dead-3",
+                "wasteland/dead-4",
+                "wasteland/dead-5"
+            ],
+            "chance": 0.3,
+            "onwater": true,
+            "rotation": {
+                "enabled": true,
+                "yAxis": {
+                    "enabled": true,
+                    "interval": 90,
+                    "min": -360,
+                    "max": 360
+                }
+            },
+            "translate": {"y": -3}
+        }
+    ],
+    "wall": {
+        "style": {"style": "IRIS"},
+        "palette": [
+            {"block": "clay"},
+            {
+                "weight": 2,
+                "block": "smooth_sandstone"
+            },
+            {"block": "sand"}
+        ]
+    },
+    "slab": {
+        "style": {"style": "STATIC"},
+        "palette": [
+            {
+                "data": {
+                    "waterlogged": false,
+                    "type": "bottom"
+                },
+                "block": "sandstone_slab"
+            },
+            {
+                "data": {
+                    "waterlogged": false,
+                    "type": "bottom"
+                },
+                "block": "smooth_sandstone_slab"
+            },
+            {
+                "weight": 6,
+                "block": "air"
+            }
+        ]
+    }
+}

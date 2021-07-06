@@ -1,0 +1,75 @@
+{
+    "name": "Dead Forest",
+    "derivative": "DESERT_HILLS",
+    "vanillaDerivative": "DESERT_HILLS",
+    "rarity": 2,
+    "layers": [
+        {
+            "palette": [
+                {
+                    "block": "grass_block",
+                    "weight": 5
+                },
+                {
+                    "block": "dirt",
+                    "weight": 7
+                },
+                {
+                    "block": "coarse_dirt",
+                    "weight": 4
+                }
+            ]
+        },
+        {
+            "palette": [
+
+                {
+                    "block": "dirt"
+                }
+            ],
+            "maxHeight": 3,
+            "minHeight": 2
+        }
+    ],
+    "objects": [
+        {
+            "place": [
+                "wasteland/dead-1",
+                "wasteland/dead-2",
+                "wasteland/dead-3",
+                "wasteland/dead-4",
+                "wasteland/dead-5",
+                "wasteland/dead-6"
+            ],
+            "translate": {
+                "y": 1
+            },
+            "chance": 0.2
+        }
+    ],
+    "generators": [
+        {
+            "generator": "vanilla",
+            "max": 7,
+            "min": 2
+        }
+    ],
+    "decorators": [
+        {
+            "chance": 0.02,
+            "palette": [
+                {
+                    "block": "dead_bush"
+                }
+            ]
+        },
+        {
+            "chance": 0.05,
+            "palette": [
+                {
+                    "block": "grass"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,107 @@
+{
+    "vanillaDerivative": "SAVANNA",
+    "name": "Outback Road",
+    "generators": [
+        {
+            "min": 4,
+            "max": 6,
+            "generator": "plain"
+        }
+    ],
+    "biomeZoom": 20,
+    "derivative": "SAVANNA",
+    "biomeStyle": {
+        "style": "IRIS"
+    },
+    "layers": [
+        {
+            "style": {
+                "style": "STATIC"
+            },
+            "zoom": 0.75,
+            "palette": [
+                {
+                    "block": "sand",
+                    "weight": 2
+                },
+                {
+                    "block": "smooth_sandstone"
+                },
+                {
+                    "block": "coarse_dirt"
+                }
+            ]
+        },
+        {
+            "style": {
+                "style": "STATIC"
+            },
+            "zoom": 0.75,
+            "palette": [
+                {
+                    "block": "smooth_sandstone",
+                    "weight": 3
+                },
+                {
+                    "block": "coarse_dirt"
+                },
+                {
+                    "block": "dirt"
+                }
+            ]
+        },
+        {
+            "minHeight": 1,
+            "maxHeight": 3,
+            "palette": [
+                {
+                    "block": "dirt"
+                }
+            ]
+        },
+        {
+            "minHeight": 6,
+            "maxHeight": 18,
+            "style": {
+                "style": "STATIC"
+            },
+            "palette": [
+                {
+                    "block": "stone"
+                }
+           ]
+        }
+    ],
+    "decorators": [
+        {
+            "chance": 0.02,
+            "zoom": 0.3,
+            "palette": [
+                {
+                    "block": "stone_button",
+                    "data": {
+                        "face": "floor",
+                        "facing": "north"
+                    }
+                },
+                {
+                    "block": "stone_button",
+                    "data": {
+                        "face": "floor",
+                        "facing": "east"
+                    }
+                }
+            ],
+            "style": {
+                "style": "STATIC"
+            }
+        }
+    ],
+    "slab": {
+        "palette": [
+            {
+                "block": "sandstone_slab"
+            }
+        ]
+    }
+}

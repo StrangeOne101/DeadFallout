@@ -1,0 +1,25 @@
+{
+    "postProcessing": false,
+    "environment": "NORMAL",
+    "regions": [
+        "hot",
+        "temperate",
+        "cold"
+    ],
+    "caves": false,
+    "name": "Fallout",
+    "fluidHeight": 63,
+    "carving": false,
+    "biomeZoom": 10,
+    "regionZoom": 10,
+    "landChance": 0.85,
+    "continentalStyle": {
+        "style": "GLOB_IRIS",
+        "zoom": 5,
+        "fracture": {
+            "style": "IRIS",
+            "zoom": 1
+        }
+    },
+    "version": 1
+}

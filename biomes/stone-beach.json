@@ -1,0 +1,32 @@
+{
+    "name": "Beach",
+    "derivative": "BEACH",
+    "vanillaDerivative": "SWAMP",
+    "layers": [
+        {
+            "palette": [
+                {
+                    "block": "stone",
+                    "weight": 10
+                },
+                {
+                    "block": "cobblestone",
+                    "weight": 7
+                },
+                {
+                    "block": "andesite",
+                    "weight": 4
+                }
+            ],
+            "maxHeight": 4,
+            "minHeight": 3
+        }
+    ],
+    "generators": [
+        {
+            "generator": "soft-river",
+            "max": 3,
+            "min": -1
+        }
+    ]
+}

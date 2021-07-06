@@ -1,0 +1,31 @@
+{
+    "name": "Beach",
+    "derivative": "SWAMP",
+    "vanillaDerivative": "SWAMP",
+    "layers": [
+        {
+            "minHeight": 5,
+            "maxHeight": 5,
+            "zoom": 0.7,
+            "palette": [
+                {
+                    "block": "sand",
+                    "weight": 2
+                },
+                {
+                    "block": "smooth_sandstone"
+                },
+                {
+                    "block": "coarse_dirt"
+                }
+            ]
+        }
+    ],
+    "generators": [
+        {
+            "generator": "soft-river",
+            "max": 1,
+            "min": -4
+        }
+    ]
+}

@@ -1,0 +1,55 @@
+{
+    "name": "Hot Desert",
+    "derivative": "DESERT",
+    "vanillaDerivative": "DESERT",
+    "generators": [{
+        "generator": "smooth-dunes",
+        "max": 12,
+        "min": 4
+    }],
+    "layers": [
+        {
+            "minHeight": 3,
+            "maxHeight": 10,
+            "slopeCondition": {
+                "minimumSlope": 4.5,
+                "maximumSlope": 20
+            },
+            "palette": [{"block": "smooth_sandstone"}]
+        },
+        {
+            "minHeight": 5,
+            "maxHeight": 5,
+            "zoom": 0.7,
+            "palette": [
+                {
+                    "block": "sand",
+                    "weight": 2
+                },
+                {
+                    "block": "smooth_sandstone"
+                },
+                {
+                    "block": "coarse_dirt"
+                }
+            ]
+        }
+    ],
+    "objects": [
+        {
+            "chance": 0.01,
+            "density": 1,
+            "place": [
+                "clutter/desert-post1",
+                "clutter/desert-post2",
+                "clutter/desert-post3"
+            ]
+        }
+    ],
+    "decorators": [
+        {
+            "chance": 0.005,
+            "palette": [{"block": "dead_bush"}]
+        }
+    ]
+}

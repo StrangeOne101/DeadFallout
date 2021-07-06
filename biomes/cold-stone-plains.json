@@ -1,0 +1,91 @@
+{
+    "name": "Cold Stone Plains",
+    "derivative": "DEEP_FROZEN_OCEAN",
+    "vanillaDerivative": "DEEP_FROZEN_OCEAN",
+    "rarity": 2,
+    "layers": [
+        {
+            "palette": [
+                {
+                    "block": "stone",
+                    "weight": 10
+                },
+                {
+                    "block": "cobblestone",
+                    "weight": 7
+                },
+                {
+                    "block": "andesite",
+                    "weight": 4
+                }
+            ]
+        },
+        {
+            "palette": [
+                {
+                    "block": "stone"
+                }
+            ],
+            "maxHeight": 5,
+            "minHeight": 2
+        }
+    ],
+    "objects": [
+       {
+            "place": [
+                "wasteland/dead-1",
+                "wasteland/dead-2",
+                "wasteland/dead-3",
+                "wasteland/dead-4",
+                "wasteland/dead-5",
+                "wasteland/dead-6"
+            ],
+            "translate": {
+                "y": 1
+            },
+            "chance": 0.04
+        },
+        {
+            "place": [
+                "clutter/stone-1",
+                "clutter/stone-2",
+                "clutter/stone-3",
+                "clutter/stone-4",
+                "clutter/stone-5",
+                "clutter/stone-6"
+            ],
+            "translate": {
+                "y": -3
+            },
+            "chance": 0.08
+        }
+    ],
+    "generators": [
+        {
+            "generator": "plain",
+            "max": 5,
+            "min": 2
+        }
+    ],
+    "decorators": [
+        {
+            "chance": 0.01,
+            "palette": [
+                {
+                    "block": "dead_bush"
+                }
+            ]
+        }
+    ],
+    "slab": {
+        "palette": [
+            {
+                "block": "cobblestone_slab",
+                "weight": 2
+            },
+            {
+                "block": "stone_slab"
+            }
+        ]
+    }
+}

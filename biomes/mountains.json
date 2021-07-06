@@ -1,0 +1,43 @@
+{
+    "name": "Mountains",
+    "derivative": "SNOWY_MOUNTAINS",
+    "vanillaDerivative": "SNOWY_MOUNTAINS",
+    "rarity": 2,
+    "layers": [
+        {
+            "palette": [
+                {
+                    "block": "stone",
+                    "weight": 10
+                },
+                {
+                    "block": "cobblestone",
+                    "weight": 7
+                },
+                {
+                    "block": "andesite",
+                    "weight": 4
+                }
+            ],
+            "maxHeight": 20
+        }
+    ],
+    "generators": [
+        {
+            "generator": "mountain",
+            "max": 35,
+            "min": 5
+        }
+    ],
+    "slab": {
+        "palette": [
+            {
+                "block": "cobblestone_slab",
+                "weight": 2
+            },
+            {
+                "block": "stone_slab"
+            }
+        ]
+    }
+}

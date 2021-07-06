@@ -1,0 +1,15 @@
+{
+    "name": "Cold",
+    "landBiomes": [
+        "mountains",
+        "cold-stone-plains",
+        "stone-plains",
+        "mountains-high"
+    ],
+    "seaBiomes": [
+        "ocean"
+    ],
+    "shoreBiomes": [
+        "stone-beach"
+    ]
+}

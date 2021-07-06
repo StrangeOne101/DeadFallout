@@ -1,0 +1,58 @@
+{
+    "name": "High Mountains",
+    "derivative": "SNOWY_MOUNTAINS",
+    "vanillaDerivative": "SNOWY_MOUNTAINS",
+    "rarity": 2,
+    "layers": [
+        {
+            "palette": [
+                {
+                    "block": "stone",
+                    "weight": 10
+                },
+                {
+                    "block": "cobblestone",
+                    "weight": 7
+                },
+                {
+                    "block": "andesite",
+                    "weight": 4
+                }
+            ],
+            "maxHeight": 20
+        }
+    ],
+    "decorators": [
+        {
+            "chance": 0.1,
+            "zoom": 2,
+            "palette": [
+                {
+                    "block": "snow"
+                }
+            ],
+            "style": {
+                "style": "SIMPLEX_CELLS",
+                "zoom": 2
+            }
+        }
+    ],
+    "generators": [
+        {
+            "generator": "cracked-cliffs",
+            "max": 84,
+            "min": 10
+        }
+    ],
+    "slab": {
+        "palette": [
+            {
+                "block": "cobblestone_slab",
+                "weight": 2
+            },
+            {
+                "block": "stone_slab"
+            }
+        ]
+    }
+}

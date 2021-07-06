@@ -1,0 +1,14 @@
+{
+    "name": "Hot",
+    "landBiomes": [
+        "desert",
+        "outback"
+    ],
+    "seaBiomes": [
+        "ocean"
+    ],
+    "shoreBiomes": [
+        "beach"
+    ],
+    "landBiomeZoom": 5
+}

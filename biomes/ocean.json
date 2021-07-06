@@ -1,0 +1,95 @@
+{
+    "name": "Ocean",
+    "derivative": "SWAMP",
+    "vanillaDerivative": "SWAMP",
+    "generators": [{
+        "min": -15,
+        "max": -5,
+        "generator": "river"
+    }],
+    "layers": [
+        {
+            "minHeight": 2,
+            "maxHeight": 3,
+            "style": {
+                "style": "VASCULAR",
+                "zoom": 0.8,
+                "fracture": {
+                    "multiplier": 2,
+                    "style": "STATIC"
+                }
+            },
+            "zoom": 0.825,
+            "palette": [
+                {"block": "sand"},
+                {"block": "dirt"},
+                {"block": "gravel"},
+                {"block": "coarse_dirt"}
+            ]
+        },
+        {"palette": [{"block": "dirt"}]},
+        {
+            "minHeight": 1,
+            "maxHeight": 3,
+            "palette": [
+                {
+                    "weight": 2,
+                    "block": "dirt"
+                },
+                {"block": "coarse_dirt"}
+            ]
+        }
+    ],
+    "decorators": [
+        {
+            "chance": 0.07,
+            "variance": {"style": "STATIC"},
+            "zoom": 20,
+            "palette": [{"block": "seagrass"}],
+            "style": {"style": "STATIC"}
+        },
+        {
+            "chance": 0.05,
+            "variance": {"style": "STATIC"},
+            "zoom": 2,
+            "palette": [
+                {"block": "soul_sand"}
+            ],
+            "style": {"style": "STATIC"}
+        }
+    ],
+    "wall": {
+        "style": {"style": "IRIS"},
+        "palette": [
+            {"block": "clay"},
+            {
+                "weight": 2,
+                "block": "smooth_sandstone"
+            },
+            {"block": "sand"}
+        ]
+    },
+    "slab": {
+        "style": {"style": "STATIC"},
+        "palette": [
+            {
+                "data": {
+                    "waterlogged": false,
+                    "type": "bottom"
+                },
+                "block": "sandstone_slab"
+            },
+            {
+                "data": {
+                    "waterlogged": false,
+                    "type": "bottom"
+                },
+                "block": "smooth_sandstone_slab"
+            },
+            {
+                "weight": 6,
+                "block": "air"
+            }
+        ]
+    }
+}

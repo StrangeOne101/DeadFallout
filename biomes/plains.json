@@ -1,0 +1,121 @@
+{
+    "name": "Dirtlands",
+    "derivative": "SWAMP",
+    "vanillaDerivative": "SWAMP",
+    "layers": [
+        {
+            "palette": [
+                {
+                    "weight": 1,
+                    "block": "brown_terracotta"
+                },
+                {
+                    "block": "podzol",
+                    "weight": 3
+                },
+                {
+                    "block": "coarse_dirt",
+                    "weight": 2
+                },
+                {
+                    "weight": 3,
+                    "block": "grass_block"
+                }
+            ],
+            "zoom": 0.5
+        },
+       {
+            "palette": [
+                {
+                    "block": "dirt"
+                }
+            ]
+        },
+        {
+            "minHeight": 1,
+            "maxHeight": 3,
+            "palette": [
+                {
+                    "block": "dirt"
+                },
+                {
+                    "block": "coarse_dirt"
+                }
+            ]
+        },
+        {
+            "minHeight": 6,
+            "maxHeight": 18,
+            "style": {
+                "style": "STATIC"
+            },
+            "palette": [
+                {
+                    "block": "stone"
+                },
+                {
+                    "block": "andesite"
+                },
+                {
+                    "block": "stone"
+                }
+            ]
+        }
+    ],
+    "decorators": [
+        {
+            "chance": 0.001,
+            "variance": {
+                "style": "STATIC"
+            },
+            "zoom": 0.02,
+            "palette": [
+                {
+                    "block": "brown_mushroom"
+                },
+                {
+                    "block": "red_mushroom"
+                }
+            ],
+            "style": {
+                "style": "STATIC"
+            }
+        },
+        {
+            "chance": 0.03,
+            "variance": {
+                "style": "STATIC"
+            },
+            "zoom": 0.3,
+            "palette": [
+                {
+                    "block": "dead_bush"
+                },
+                {
+                    "block": "grass"
+                }
+            ],
+            "style": {
+                "style": "STATIC"
+            }
+        },
+        {
+            "chance": 0.002,
+            "variance": {
+                "style": "STATIC"
+            },
+            "palette": [
+                {
+                    "block": "wither_rose"
+                }
+            ]
+        }
+    ],
+    "generators": [
+        {
+            "generator": "mountain",
+            "max": 7,
+            "min": 2
+        }
+    ]
+}
