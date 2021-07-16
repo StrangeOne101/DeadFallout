@@ -1,6 +1,7 @@
 {
     "vanillaDerivative": "SAVANNA",
     "name": "Outback",
+    "color": "#cf6700",
     "biomeSkyScatter": [
         "DESERT",
         "SAVANNA"

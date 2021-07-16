@@ -11,5 +11,6 @@
     ],
     "shoreBiomes": [
         "stone-beach"
-    ]
+    ],
+    "landBiomeZoom": 3
 }

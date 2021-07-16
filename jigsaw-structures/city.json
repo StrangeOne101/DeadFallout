@@ -1,0 +1,11 @@
+{
+    "maxDepth": 15,
+    "pieces": ["city/cross/clean/cross-4"],
+    "terminate": true,
+    "feature": {
+        "objectChance": 0,
+        "strength": 1,
+        "interpolationRadius": 64,
+        "interpolator": "BILINEAR"
+    }
+}

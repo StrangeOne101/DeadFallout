@@ -2,6 +2,7 @@
     "name": "Hot Desert",
     "derivative": "DESERT",
     "vanillaDerivative": "DESERT",
+    "color": "#fff8a8",
     "generators": [{
         "generator": "smooth-dunes",
         "max": 12,

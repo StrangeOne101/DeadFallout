@@ -1,0 +1,13 @@
+{
+    "pieces": [
+        "city/tile/clean/empty-base",
+        "city/tile/clean/empty-base-2",
+        "city/tile/clean/garbage-1",
+        "city/tile/clean/frame-small",
+        "city/tile/clean/frame-small",
+        "city/tile/clean/frame-medium",
+        "city/tile/clean/frame-medium",
+        "city/tile/clean/frame-large",
+        "city/tile/clean/frame-large"
+    ]
+}

@@ -1,7 +1,7 @@
 {
     "name": "Dirtlands",
-    "derivative": "SWAMP",
-    "vanillaDerivative": "SWAMP",
+    "derivative": "BADLANDS",
+    "vanillaDerivative": "BADLANDS",
     "layers": [
         {
             "palette": [

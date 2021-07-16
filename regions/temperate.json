@@ -9,5 +9,6 @@
     ],
     "shoreBiomes": [
         "beach"
-    ]
+    ],
+    "landBiomeZoom": 4
 }
